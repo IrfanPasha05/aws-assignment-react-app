@@ -14,7 +14,7 @@ Built & Deployed using a complete DevOps workflow
 ---
 
 ## 🌍 Live Demo
-Coming Soon (Netlify Deployment)
+(https://6988f216c9b850f7db01d08b--tiny-begonia-c0a233.netlify.app/)
 
 ---
 
