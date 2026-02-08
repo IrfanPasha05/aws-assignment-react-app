@@ -1,0 +1,46 @@
+body {
+  margin:0;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align:center;
+  transition:0.3s;
+}
+
+.dark {
+  background: linear-gradient(45deg,#141e30,#243b55);
+  color:white;
+}
+
+.light {
+  background: linear-gradient(45deg,#f6d365,#fda085);
+  color:black;
+}
+
+.quiz, .login { margin-top:80px; }
+
+button {
+  padding:12px 25px;
+  margin:10px;
+  border:none;
+  border-radius:8px;
+  font-size:16px;
+  background:#ff9800;
+  cursor:pointer;
+}
+
+.correct { background:#4caf50 !important; }
+.wrong { background:#f44336 !important; }
+
+.progress {
+  width:60%;
+  height:15px;
+  background:#555;
+  margin:20px auto;
+  border-radius:20px;
+}
+
+.progress-bar {
+  height:15px;
+  background:#4caf50;
+  border-radius:20px;
+}
+
