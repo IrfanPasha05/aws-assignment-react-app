@@ -1,70 +1,138 @@
-# Getting Started with Create React App
+<h1 align="center">🚀 AWS Assignment – React Quiz App</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+Built & Deployed using a complete DevOps workflow  
+</p>
 
-## Available Scripts
+<p align="center">
+<img src="https://img.shields.io/badge/React-Frontend-blue" />
+<img src="https://img.shields.io/badge/AWS-EC2-orange" />
+<img src="https://img.shields.io/badge/GitHub-CI/CD-black" />
+<img src="https://img.shields.io/badge/Netlify-Live-green" />
+</p>
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🌍 Live Demo
+Coming Soon (Netlify Deployment)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# 🧠 Project Story
 
-### `npm test`
+This project demonstrates a **real-world DevOps workflow** where a React application was:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1️⃣ Developed inside AWS EC2 Ubuntu server  
+2️⃣ Version controlled using Git  
+3️⃣ Pushed to GitHub repository  
+4️⃣ Prepared for CI/CD deployment using Netlify  
 
-### `npm run build`
+This simulates how modern frontend apps are deployed in production.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# 🏗️ Architecture
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+Developer → AWS EC2 → Git → GitHub → Netlify → Internet 🌍
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+| Login Page | Quiz Page | Result Page |
+|---|---|---|
+| ![](screenshots/login.png) | ![](screenshots/quiz.png) | ![](screenshots/result.png) |
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# ✨ Features
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### 🔐 Authentication
+Demo Login:
 
-## Learn More
+Username: irfan
+Password: 123
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### 🎯 Quiz Engine
+- 10 AWS Interview Questions
+- Random question shuffle
+- Correct answer feedback
+- Score calculation
 
-### Code Splitting
+### 🎮 Gamification
+- ⏱ Countdown timer
+- 📊 Progress bar
+- 🏆 Performance grading
+- 🔄 Restart quiz
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### 🎨 UI Enhancements
+- Dark / Light theme toggle
+- Responsive design
+- Modern styling
 
-### Analyzing the Bundle Size
+### 💾 Persistence
+- High score stored in browser (LocalStorage)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+# 🛠 Tech Stack
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+| Layer | Technology |
+|---|---|
+| Frontend | React |
+| Styling | CSS |
+| Version Control | Git |
+| Repository | GitHub |
+| Cloud Dev Environment | AWS EC2 |
+| Deployment | Netlify |
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+# ⚙️ DevOps Workflow
 
-### Deployment
+### Step 1 — AWS Setup
+- Created custom VPC
+- Created subnet & route tables
+- Launched Ubuntu EC2
+- Configured security groups
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### Step 2 — Development on EC2
+- Installed NodeJS & Git
+- Built React application
+- Tested using public IP
 
-### `npm run build` fails to minify
+### Step 3 — Version Control
+- Initialized Git repository
+- Created GitHub repo
+- Pushed project using PAT token
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Step 4 — CI/CD Deployment
+- Connected GitHub to Netlify
+- Automated build & deployment
+
+---
+
+# 📂 Project Structure
+
+aws-assignment-react-app
+│
+├── public
+├── src
+├── screenshots
+├── package.json
+├── README.md
+└── LICENSE
+
+
+---
+
+# 👨‍💻 Author
+
+**Irfan Pasha**
+
+GitHub: https://github.com/IrfanPasha05
+
+---
+
+# ⭐ Support
+
+If you like this project, give it a ⭐ on GitHub.
+
