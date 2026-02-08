@@ -129,6 +129,7 @@ aws-assignment-react-app
 **Irfan Pasha**
 
 GitHub: https://github.com/IrfanPasha05
+Dev: https://dev.to/irfanpasha/how-i-built-deployed-a-real-devops-project-from-scratch-aws-github-netlify-1img
 
 ---
 
